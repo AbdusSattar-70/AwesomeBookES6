@@ -10,8 +10,56 @@
 </head>
 
 <body>
-
-  <script src="index.js"></script>
+  <header>
+    <nav>
+      <p>Awesome Books</p>
+      <ul>
+        <li><a href="#" class="switch active">List</a></li>
+        <hr>
+        <li><a href="#" class="switch">Add new</a></li>
+        <hr>
+        <li><a href="#" class="switch">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="headerTime" id="date-time"></p>
+  </header>
+  <main>
+    <section class="window current-window">
+      <h1 class="section-title">All Awesome Books</h1>
+      <div id="displayBook">
+      </div>
+    </section>
+    <section class="window  form-section">
+      <h3 class="form-title">Add a new book</h3>
+      <form id="book-form">
+        <input type="text" id="title" placeholder="Book title" required>
+        <br>
+        <input type="text" id="author" placeholder="Author" required>
+        <br>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+    <section class="window contact-Section">
+      <h3>Contact Information</h3>
+      <div class="contact-Container">
+        <p>Do you have any questions or you just want
+          to say "Hello"?
+        </p>
+        <p>You can reach out to us</p>
+        <ul>
+          <li>Our e-mail: ewsdmail@mail.com</li>
+          <li>Our phone number: 001485975652</li>
+          <li>Our address: No. 23 Baliadaha Street, Jamalpur, Bangladesh</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="copyright-Container">
+      <p>Copyright -</p>
+    </div>
+  </footer>
+  <script type="module" src="index.js"></script>
 </body>
 
 </html>

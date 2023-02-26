@@ -139,10 +139,6 @@ form button {
   flex-direction: column;
 }
 
-.form-title {
-  float: center;
-}
-
 #book-form input {
   width: 90%;
   padding: 1%;

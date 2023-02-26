@@ -1,8 +1,10 @@
+import { DateTime } from './luxon.js';
+
 const updateTime = () => {
-  const today = new Date();
+  const now = DateTime.now();
   const options = { month: 'short', day: 'numeric', year: 'numeric' };
-  const date = today.toLocaleString('en-US', options);
-  const time = today.toLocaleTimeString();
+  const date = now.toLocaleString(options);
+  const time = now.toLocaleString(DateTime.TIME_WITH_SECONDS);
   document.getElementById('date-time').innerHTML = `${date} , ${time}`;
 };
 

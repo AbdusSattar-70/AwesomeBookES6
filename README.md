@@ -1,17 +1,5 @@
 # AwesomeBookES6
 
-<a name="readme-top"></a>
-
-<div align="center">
- <h3><b>AwesomeBookES6 is my demo project for learning ES6 modules
- and it is a simple website that displays a list of books and allows you to add and remove books from that list.</b></h3>
-
-</div>
-
-<div align="center">
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -39,7 +27,8 @@
 
 # 📖 [Awesome book] <a name="about-project"></a>
 
-**[AwesomeBookES6]** is a part of the learning purpose that I made to how to use ES6 modules best practices.
+**[AwesomeBookES6]** is my demo project for learning ES6 modules
+ and it is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -121,7 +110,7 @@ gitHub pages
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Abdus Sattar**
 
 - GitHub: [@githubhandle](https://github.com/AbdusSattar-70)
 - Twitter: [@twitterhandle](twitter.com/Abdus_Sattar70)
